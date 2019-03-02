@@ -1,5 +1,4 @@
 import styles from './index.css';
-import Link from 'umi/link';
 
 
 export default function() {
@@ -12,12 +11,6 @@ export default function() {
           <a href="https://umijs.org/guide/getting-started.html">
             Getting Started
           </a>
-        </li>
-        <li>
-          <Link to='/users'>Go to users</Link>
-        </li>
-        <li>
-          <Link to='/login'>Go to login</Link>
         </li>
       </ul>
     </div>
