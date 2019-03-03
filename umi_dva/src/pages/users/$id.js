@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Col, Row} from 'antd';
+import {Button} from 'antd';
 import router from 'umi/router';
 
 class User extends Component {
