@@ -1,5 +1,5 @@
 import styles from './index.css';
-
+import Link from 'umi/link';
 
 export default function() {
   return (
@@ -8,10 +8,9 @@ export default function() {
       <ul className={styles.list}>
         <li>To get started, edit <code>src/pages/index.js</code> and save to reload.</li>
         <li>
-          <a href="https://umijs.org/guide/getting-started.html">
-            Getting Started
-          </a>
+          <Link to='/login'>登录</Link>
         </li>
+        <Link to='/users'>用户列表</Link>
       </ul>
     </div>
   );
