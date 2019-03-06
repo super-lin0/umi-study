@@ -1,3 +1,4 @@
+import { resolve } from "url";
 
 // ref: https://umijs.org/config/
 export default {
@@ -23,4 +24,8 @@ export default {
       },
     }],
   ],
+  alias: {
+    '@request': resolve(__dirname, '@/utils/')
+  }
+  
 }
